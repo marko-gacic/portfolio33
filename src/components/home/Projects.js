@@ -25,10 +25,10 @@ export default class Projects extends Component {
 }
 
 const ProjectsCenter = styled.div`
-  width: 80vw;
+  width: 100vw;
   margin: 0 auto;
-  ${media.desktop`
-  width: 90vw;
+  ${media.tablet`
+  width: 100vw;
   max-width: 1170px;
   `};
   display: grid;
