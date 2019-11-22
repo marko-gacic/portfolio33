@@ -79,10 +79,12 @@ export default styled(Project)`
     h4{
       text-transform:capitalize;
       ${setLetterSpacing()};
+      font-size:${setRem(30)}
 
     }
     p{
       ${setLetterSpacing()};
+      font-size:${setRem(15)}
     }
     }
         ${setShadow.light}

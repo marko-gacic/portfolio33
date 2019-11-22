@@ -30,7 +30,12 @@ export const About = () => {
             for entry level in IT sector as Front-end Developer. Thanks for
             reading this. Best regards Marko. "
           </p>
-          <SecondaryBtn>Curriculum vitae</SecondaryBtn>
+          <SecondaryBtn
+            as="a"
+            href="https://drive.google.com/file/d/18lY_0LDElzvTTPkx4_Qc0dxHeGCpkYdp/view?usp=sharing"
+          >
+            Curriculum vitae
+          </SecondaryBtn>
         </div>
       </AboutCenter>
     </Section>
