@@ -57,5 +57,5 @@ export const SmallBtn = styled(SecondaryBtn)`
   padding: ${setRem(9)} ${setRem(12)};
   justify-content: "space-between";
   margin-left: none;
-  margin-right: 4.3rem;
+  margin-right: 3rem;
 `;

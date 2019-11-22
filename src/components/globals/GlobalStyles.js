@@ -1,7 +1,7 @@
 import { createGlobalStyle } from "styled-components";
 import { setColor, setFont } from "../../styles";
 const Globals = createGlobalStyle`
-@import url('https://fonts.googleapis.com/css?family=Cuprum:400,700i|Permanent+Marker&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display|Roboto&display=swap";
 
 
 

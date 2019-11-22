@@ -7,7 +7,8 @@ import {
   setBorder,
   setColor,
   setLetterSpacing,
-  media
+  media,
+  setFont
 } from "../../styles";
 import { PrimaryBtn, SecondaryBtn } from "../globals/Buttons";
 import styled from "styled-components";
@@ -72,6 +73,7 @@ const AboutCenter = styled.div`
   .about.info {
     p{
       width:30%;
+      font-family:
     }
   }
   `}
