@@ -25,13 +25,14 @@ export default class Projects extends Component {
 }
 
 const ProjectsCenter = styled.div`
-  width: 100vw;
-  margin: 0 auto;
-  ${media.tablet`
+  width: 90vw;
+  margin: auto;
+  ${media.large`
   width: 100vw;
   max-width: 1170px;
+ 
   `};
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
-  grid-column-gap: ${setRem(40)};
+  grid-column-gap: ${setRem(20)};
 `;

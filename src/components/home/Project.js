@@ -45,11 +45,13 @@ export const Project = ({ className, project }) => {
 export default styled(Project)`
   background: ${setColor.mainWhite};
   margin: ${setRem(50)} 0;
-  padding-right: ${setRem(10)};
+  
   
   .img-container {
     background: ${setColor.mainBlack};
     position: relative;
+    
+    
     img {
       width: 100%;
       display: block;
