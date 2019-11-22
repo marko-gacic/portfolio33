@@ -23,10 +23,10 @@ export const About = () => {
         <div className="about-info">
           <Title title="short about me" />
           <p>
-            "Hello. My name is Marko, and I'm self-taught programmer (well i'm
+            "Hello. My name is Marko, and I'm self-taught programmer (well I'm
             trying to be). At the moment im learning React.js. I love
-            technology, and i love to learn everyday new stuffs. I love movies
-            and games (big fun of marvel, and mmorpg). At the end i'm seeking
+            technology, and i love to learn everyday new stuff. I love movies
+            and games (big fan of marvel, and mmorpg). At the end I'm seeking
             for entry level in IT sector as Front-end Developer. Thanks for
             reading this. Best regards Marko. "
           </p>
