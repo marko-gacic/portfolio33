@@ -24,8 +24,8 @@ export const About = () => {
           <Title title="short about me" />
           <p>
             "Hello. My name is Marko, and I'm self-taught programmer (well I'm
-            trying to be). At the moment im learning React.js. I love
-            technology, and i love to learn everyday new stuff. I love movies
+            trying to be). At the moment Im learning React.js. I love
+            technology, and I love to learn everyday new stuff. I love movies
             and games (big fan of marvel, and mmorpg). At the end I'm seeking
             for entry level in IT sector as Front-end Developer. Thanks for
             reading this. Best regards Marko. "
@@ -68,9 +68,9 @@ const AboutCenter = styled.div`
     padding: ${setRem(30)};
   }
   width:100%;
-  max-width: 2080px;
+  max-width: 1170px;
   display:grid;
-  grid-template-columns: 1fr  1fr 1fr   ;
+  grid-template-columns: 1fr  1fr 0   ;
   grid-column-gap: ${setRem(50)};
   .about-img,.about-info {
   position:center;
