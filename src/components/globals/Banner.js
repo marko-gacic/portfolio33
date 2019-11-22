@@ -74,11 +74,11 @@ const BannerWrapper = styled(Banner)`
     }`}
 
   h1 {
-    ${fadeIn("100%", "-60", "0")} /*animation */
+    ${fadeIn("100%", "-60", "0")}
   }
 
   .info {
-    ${fadeIn("-100%", "60", "0")} /*animation*/
+    ${fadeIn("-100%", "60", "0")}
   }
 `;
 export default BannerWrapper;

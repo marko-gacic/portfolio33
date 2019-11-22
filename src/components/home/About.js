@@ -71,7 +71,7 @@ const AboutCenter = styled.div`
   max-width: 1170px;
   display:grid;
   grid-template-columns: 1fr  1fr 0   ;
-  grid-column-gap: ${setRem(50)};
+  grid-column-gap: ${setRem(30)};
   .about-img,.about-info {
   position:center;
   }
