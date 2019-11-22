@@ -33,6 +33,6 @@ const ProjectsCenter = styled.div`
  
   `};
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
-  grid-column-gap: ${setRem(20)};
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  grid-column-gap: ${setRem(45)};
 `;
