@@ -8,7 +8,7 @@ export default [
     img: project1,
     title: "tech store project",
     info:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est quisquam corrupti dicta tempora sequi sapiente!",
+      "Responsive site created with React.js. Tech shop with cart,and pay method.",
     demo_url: "https://react-tech-store-react-js.netlify.com/",
     github_url: "https://github.com/marko-gacic/tech-store"
   },
@@ -17,7 +17,7 @@ export default [
     img: project2,
     title: "resort project",
     info:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est quisquam corrupti dicta tempora sequi sapiente!",
+      "Responsive site created with React.js using react-router, react-context-api.",
     demo_url: "https://resorts.netlify.com/",
     github_url: "https://github.com/marko-gacic/Beach-Resort"
   },
