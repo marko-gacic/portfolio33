@@ -25,7 +25,7 @@ export const About = () => {
           <p>
             "Hello. My name is Marko, and I'm self-taught programmer (well I'm
             trying to be). At the moment Im learning React.js. I love
-            technology, and I love to learn everyday new stuff. I love movies
+            technology, and everyday I enjoy learning new stuff. I love movies
             and games (big fan of marvel, and mmorpg). At the end I'm seeking
             for entry level in IT sector as Front-end Developer. Best regards
             Marko. "
