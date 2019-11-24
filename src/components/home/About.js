@@ -23,12 +23,12 @@ export const About = () => {
         <div className="about-info">
           <Title title="short about me" />
           <p>
-            "Hello. My name is Marko, and I'm self-taught programmer (well I'm
-            trying to be). At the moment Im learning React.js. I love
-            technology, and everyday I enjoy learning new stuff. I love movies
-            and games (big fan of marvel, and mmorpg). At the end I'm seeking
-            for entry level in IT sector as Front-end Developer. Best regards
-            Marko. "
+            "Hello, my name is Marko, and I'm self-taught programmer or at least
+            im trying to be. At the moment im learning React.js. I love
+            technology and everyday I'm learning new stuff. I enjoy watching
+            movies and playing video games (big fan of marvel and mmorpg).
+            Ultimately, I'm seeking for an entry level job in the IT sector, as
+            Front-end Developer, in a company. Best regards, Marko"
           </p>
           <SecondaryBtn
             as="a"
