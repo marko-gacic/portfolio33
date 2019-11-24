@@ -26,7 +26,7 @@ export default [
     img: project3,
     title: "recipes project",
     info:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est quisquam corrupti dicta tempora sequi sapiente!",
+      "Single page recipes application. Fetching recipes from external API.Using react-router.",
     demo_url: "https://recipesreact.netlify.com/",
     github_url: "https://github.com/marko-gacic/react-recepti"
   }

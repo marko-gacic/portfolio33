@@ -65,6 +65,7 @@ const BannerWrapper = styled(Banner)`
     width: 85%;
     margin: 0 auto;
     font-size: ${setRem(25)};
+    margin-bottom: 1rem;
   }
   ${media.tablet`width: 70vw;
     border: 6px solid goldenrod;

@@ -4,6 +4,7 @@ import Icons from "../components/globals/Icons";
 import About from "../components/home/About";
 import Projects from "../components/home/Projects";
 import Contact from "../components/home/Contact";
+import Footer from "../components/home/Footer";
 export const Home = () => {
   return (
     <>
@@ -13,6 +14,7 @@ export const Home = () => {
       <About />
       <Projects />
       <Contact />
+      <Footer />
     </>
   );
 };
