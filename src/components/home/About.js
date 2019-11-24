@@ -47,6 +47,7 @@ const AboutCenter = styled.div`
   .about-info {
     padding: ${setRem(30)};
   }
+
   .about-img {
     img {
       width: 50%;
