@@ -20,6 +20,7 @@ export const PrimaryBtn = styled.button`
   ${setBorder({ color: setColor.primaryColor })};
   ${setLetterSpacing(2)};
   ${setTransition()};
+  margin-top: 2em;
 
   &:hover {
     background: transparent;

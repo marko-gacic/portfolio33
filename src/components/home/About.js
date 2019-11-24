@@ -27,8 +27,8 @@ export const About = () => {
             trying to be). At the moment Im learning React.js. I love
             technology, and I love to learn everyday new stuff. I love movies
             and games (big fan of marvel, and mmorpg). At the end I'm seeking
-            for entry level in IT sector as Front-end Developer. Thanks for
-            reading this. Best regards Marko. "
+            for entry level in IT sector as Front-end Developer. Best regards
+            Marko. "
           </p>
           <SecondaryBtn
             as="a"
