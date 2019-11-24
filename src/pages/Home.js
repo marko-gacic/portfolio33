@@ -3,7 +3,7 @@ import Header from "../components/home/Header";
 import Icons from "../components/globals/Icons";
 import About from "../components/home/About";
 import Projects from "../components/home/Projects";
-
+import Contact from "../components/home/Contact";
 export const Home = () => {
   return (
     <>
@@ -12,6 +12,7 @@ export const Home = () => {
       </Header>
       <About />
       <Projects />
+      <Contact />
     </>
   );
 };
