@@ -24,7 +24,7 @@ export const About = () => {
           <Title title="short about me" />
           <p>
             "Hello, my name is Marko, and I'm self-taught programmer or at least
-            im trying to be. At the moment im learning React.js. I love
+            I'm trying to be. At the moment I'm learning React.js. I love
             technology and everyday I'm learning new stuff. I enjoy watching
             movies and playing video games (big fan of marvel and mmorpg).
             Ultimately, I'm seeking for an entry level job in the IT sector, as
