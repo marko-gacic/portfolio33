@@ -44,7 +44,7 @@ export const Project = ({ className, project }) => {
 
 export default styled(Project)`
   background: ${setColor.mainWhite};
-  margin: ${setRem(50)} 0;
+  margin: ${setRem(30)} 0;
   
   
   .img-container {
@@ -52,10 +52,12 @@ export default styled(Project)`
     position: relative;
     
     
+    
     img {
       width: 100%;
       display: block;
       ${setTransition};
+      padding-right: 2rem;
     }
     &:hover img {
       opacity: 0.5;

@@ -33,11 +33,14 @@ export const PrimaryBtn = styled.button`
 `;
 
 export const SecondaryBtn = styled.button`
+  width: 35px;
   display: inline-block;
   background: ${setColor.primaryColor};
   color: black;
+  justify-content: center;
+
   text-transform: capitalize;
-  font-size: ${setRem(30)};
+  font-size: ${setRem(20)};
   ${setFont.main};
   padding: ${setRem(10)} ${setRem(20)};
   ${setBorder({ color: setColor.primaryColor })};
@@ -58,5 +61,6 @@ export const SmallBtn = styled(SecondaryBtn)`
   padding: ${setRem(9)} ${setRem(12)};
   justify-content: "space-between";
   margin-top: 1rem;
-  margin-right: 3rem;
+  margin-right: 5rem;
+  width: 55px;
 `;

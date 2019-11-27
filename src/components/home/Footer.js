@@ -19,14 +19,14 @@ export default function Footer() {
           Reserved
         </p>
       </div>
-      <div className="social-container d-flex justify-content-around">
-        <a href="https://github.com/marko-gacic" className="icon">
+      <div className="social-container">
+        <a href="https://github.com/marko-gacic" className="github">
           <FontAwesomeIcon icon={faGithub} />
         </a>
 
         <a
           href="https://www.linkedin.com/in/marko-gacic-359429195/"
-          className="icon "
+          className="linkedin"
         >
           <FontAwesomeIcon icon={faLinkedin} />
         </a>
@@ -36,19 +36,30 @@ export default function Footer() {
 }
 
 const FooterContainer = styled.footer`
-  background: gray;
+  background: black;
   color: white;
   text-align: center;
-  .icon {
+  position: center;
+  
+  .github {
     font-size: 2rem;
     color: yellow;
-    transition: 1.5s ease-in-out;
-    position: center;
-    text-align: center;
-    margin-left: 3rem;
-    margin-right: 3rem;
+    transition: 1s ease-in-out;
+    margin: 2rem;
+
   }
-  .icon:hover {
-    color: black;
+  .github:hover {
+    color: whitesmoke;
   }
+    .linkedin {
+    font-size: 2rem;
+    color: yellow;
+    transition: 1s ease-in-out;
+    margin:2rem;
+
+
+  }
+  .linkedin:hover {
+    color: #0077B5;
+    
 `;

@@ -80,8 +80,10 @@ export const Label = styled.label`
   margin-bottom: 1em;
 `;
 export const textarea = styled.textarea`
+  font-family: "Raleway", sans-serif;
   width: 300px;
   height: 35px;
   border: ${setBorder(3)};
   background-color: #fff;
+  justify-content: center;
 `;

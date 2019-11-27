@@ -8,13 +8,13 @@ export default function SocialFollow() {
   return (
     <FooterContainer>
       <div className="social-container">
-        <a href="https://github.com/marko-gacic" className="icon">
+        <a href="https://github.com/marko-gacic" className="icon1">
           <FontAwesomeIcon icon={faGithub} />
         </a>
 
         <a
           href="https://www.linkedin.com/in/marko-gacic-359429195/"
-          className="icon"
+          className="icon2"
         >
           <FontAwesomeIcon icon={faLinkedin} />
         </a>
@@ -24,7 +24,7 @@ export default function SocialFollow() {
 }
 
 const FooterContainer = styled.footer`
-  .icon {
+  .icon1 {
     font-size: 3rem;
     color: yellow;
     transition: 1s ease-in-out;
@@ -32,7 +32,18 @@ const FooterContainer = styled.footer`
     margin-left: 1rem;
     margin-top: 10rem;
   }
-  .icon:hover {
-    color: red;
+  .icon1:hover {
+    color: whitesmoke;
+  }
+  .icon2 {
+    font-size: 3rem;
+    color: yellow;
+    transition: 1s ease-in-out;
+    text-align: center;
+    margin-left: 1rem;
+    margin-top: 10rem;
+  }
+  .icon2:hover {
+    color: #0077b5;
   }
 `;

@@ -34,7 +34,7 @@ export const About = () => {
             as="a"
             href="https://drive.google.com/file/d/18lY_0LDElzvTTPkx4_Qc0dxHeGCpkYdp/view?usp=sharing"
           >
-            Curriculum vitae
+            CV
           </SecondaryBtn>
         </div>
       </AboutCenter>
@@ -43,6 +43,8 @@ export const About = () => {
 };
 
 const AboutCenter = styled.div`
+  background: rgb(248, 236, 194);
+
   .about-img,
   .about-info {
     padding: ${setRem(30)};
@@ -51,8 +53,6 @@ const AboutCenter = styled.div`
   .about-img {
     img {
       width: 50%;
-      display: block;
-      ${setBorder({ width: setRem(6), color: setColor.primaryColor })}
     }
   }
   .about-info {
@@ -71,7 +71,7 @@ const AboutCenter = styled.div`
   width:100%;
   max-width: 1170px;
   display:grid;
-  grid-template-columns: 1fr  1fr 0   ;
+  grid-template-columns: 1fr  1fr 0  ;
   grid-column-gap: ${setRem(30)};
   .about-img,.about-info {
   position:center;
@@ -79,7 +79,8 @@ const AboutCenter = styled.div`
   .about.info {
     p{
       width:30%;
-      font-family:
+      ${setFont.main}
+      
     }
   }
   `}
