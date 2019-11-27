@@ -49,7 +49,8 @@ export default styled(Project)`
   
   .img-container {
     background: ${setColor.mainBlack};
-    position: relative;
+    position: center;
+    justify-content: center;
     
     
     
@@ -57,7 +58,9 @@ export default styled(Project)`
       width: 100%;
       display: block;
       ${setTransition};
-      padding-right: 2rem;
+      padding-right: 0;
+      padding-left: 0;
+      position: center
     }
     &:hover img {
       opacity: 0.5;
