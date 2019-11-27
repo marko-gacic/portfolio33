@@ -51,7 +51,7 @@ export default styled(Project)`
     background: ${setColor.mainBlack};
     position: center;
     justify-content: center;
-    margin-right:2rem;
+    margin-right:1rem;
     
     
     
